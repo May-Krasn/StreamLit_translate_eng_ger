@@ -1,0 +1,11 @@
+[project]
+name = "streamlit-translate-eng-ger"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "sentencepiece>=0.2.3",
+    "streamlit>=1.67.0",
+    "torch>=2.15.0",
+    "transformers==4.57.6",
+]
